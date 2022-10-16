@@ -18,7 +18,7 @@ const Gif = ({ image_array, delay }) => {
     );
 
     return () => clearTimeout(timeout);
-  }, [count]);
+  }, [count, image_array, delay]);
 
   return (
     <div>
